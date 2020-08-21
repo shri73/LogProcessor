@@ -7,6 +7,8 @@ This project has been developed using Spring Boot, Java 11 and Elastic Search (6
 Once the application is running, Swagger documentation can be used to interact with the rest api:
 http://localhost:8098/swagger-ui.html
 
+<img src="/images/swagger.PNG" height=200> 
+
 
 ## Instructions to Run
 
@@ -40,3 +42,7 @@ Operations:
      
 ### Cloud Scalable
 The reason to use elastic search for this usecase, is because elasticsearch is a search engine built on top of lucene. It is also designed to scale horizontally. We can use Amazon Elasticsearch Service to deploy, operate, and scale Elasticsearch in the AWS Cloud.
+
+## PostMan Screenshots
+
+<img src="/images/addlog.PNG" height=200>           <img src="/images/searchByParam.PNG" height=200>
